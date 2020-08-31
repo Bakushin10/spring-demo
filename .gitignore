@@ -1,0 +1,19 @@
+#Gradle temporary files
+target/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#Eclipse files
+**/.project
+**/.classpath
+**/.settings/
+blog/bin/
+**/.tern-project
+
+#IntelliJ files
+**/*.iml
+**/.idea
+**/.gradle
