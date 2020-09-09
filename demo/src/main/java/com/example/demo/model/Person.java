@@ -13,7 +13,7 @@ public class Person {
     private final String name;
 
     public Person(@JsonProperty("id") UUID id,
-                  @JsonProperty("id")String name){
+                  @JsonProperty("name") String name){
         this.id = id;
         this.name = name;
     }

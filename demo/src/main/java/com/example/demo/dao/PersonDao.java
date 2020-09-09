@@ -14,4 +14,6 @@ public interface PersonDao {
         return insertPerson(id,person);
     }
 
+    List<Person> selectAllPeople();
+
 }
